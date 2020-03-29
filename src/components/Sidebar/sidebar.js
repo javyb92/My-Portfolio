@@ -1,6 +1,8 @@
 import React from "react";
 import "../../Pages/style.css"
 import icon from "../../img/icon.png"
+import { BrowserRouter as Link } from "react-router-dom";
+
 
 
 
@@ -13,7 +15,7 @@ function Sidebar() {
             </a>
             <h5>JAVIER BARRAGAN</h5>
           </div>
-            <a className="nav-link" href="/about"><i className="fas fa-id-card"></i> ABOUT ME</a>
+            <a className="nav-link" href="/about"><i className="fas fa-id-card"></i> ABOUT ME  <Link to="/about">← Back to Authors</Link></a>
             <a className="nav-link" href="/portfolio"><i className="fas fa-file-code"></i> PORTFOLIO</a>
             <a className="nav-link" href="https://github.com/javyb92"><i className="fab fa-github-square"></i> GITHUB</a>
             <a className="nav-link" href="https://www.linkedin.com/in/javierabarragan92/"><i className="fab fa-linkedin"></i> LINKEDIN</a>

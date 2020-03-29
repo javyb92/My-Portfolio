@@ -19,13 +19,13 @@ function App() {
             <Router>
               <Switch>
                     <Route exact path="/">
-                      <Greeting/>
+                      <Greeting />
                     </Route>
-                    <Route exact path="/about">
-                      <AboutMe/>
+                    <Route path="/about">
+                      <AboutMe />
                     </Route>
-                    <Route exact path="/portfolio">
-                      <Portfolio/>
+                    <Route path="/portfolio">
+                      <Portfolio />
                     </Route>
                     <Route component={Greeting} />
               </Switch>
