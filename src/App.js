@@ -21,10 +21,10 @@ function App() {
                     <Route exact path="/">
                       <Greeting />
                     </Route>
-                    <Route path="/about">
+                    <Route exact path="/about">
                       <AboutMe />
                     </Route>
-                    <Route path="/portfolio">
+                    <Route exact path="/portfolio">
                       <Portfolio />
                     </Route>
                     <Route component={Greeting} />

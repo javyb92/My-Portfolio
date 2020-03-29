@@ -14,7 +14,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-            <a className="nav-link" href="/About"><i className="fas fa-id-card"></i> ABOUT ME</a>
+            <a className="nav-link" href="/about"><i className="fas fa-id-card"></i> ABOUT ME</a>
             <a className="nav-link" href="/portfolio"><i className="fas fa-file-code"></i> PORTFOLIO</a>
             <a className="nav-link" href="https://github.com/javyb92"><i className="fab fa-github-square"></i> GITHUB</a>
             <a className="nav-link" href="https://www.linkedin.com/in/javierabarragan92/"><i className="fab fa-linkedin"></i> LINKEDIN</a>
