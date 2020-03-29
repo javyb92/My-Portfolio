@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar/navbar";
 import Sidebar from "./components/Sidebar/sidebar";
 import Portfolio from "./Pages/Portfolio";
 import Greeting from "./Pages/Greeting";
-// import Cards from "./components//Cards/cards";
 import "./Pages/style.css"
 
 
@@ -26,7 +25,6 @@ function App() {
       </Switch>
       </Router>
       </Wrapper>
-      {/* <Cards /> */}
     </div>
   );
 }
