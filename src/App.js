@@ -14,19 +14,18 @@ import "./Pages/style.css"
 function App() {
   return (
     <div>
+      <Navbar />
+      <Wrapper>
+      <Sidebar />
       <Router>
-          <Navbar />
-          <Wrapper>
-          <Sidebar />
-          <Switch>
-          {/* <AboutMe />
-          <Portfolio /> */}
+      <Switch>
             <Route exact path="/" component={Greeting} />
             <Route exact path="/about" component={AboutMe} />
             <Route exact path="/portfolio" component={Portfolio} />
-          </Switch>
-          </Wrapper>
+            <Route component={Greeting} />
+      </Switch>
       </Router>
+      </Wrapper>
       {/* <Cards /> */}
     </div>
   );
