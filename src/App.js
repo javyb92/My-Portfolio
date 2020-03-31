@@ -20,7 +20,7 @@ function App() {
               <Route exact path="/" component={Greeting} />
               <Route exact path="/about" component={AboutMe} />
               <Route exact path="/portfolio" component={Portfolio} />
-              <Route component={Greeting} />
+              {/* <Route component={Greeting} /> */}
             </HashRouter>
         </Wrapper>
     </div>
