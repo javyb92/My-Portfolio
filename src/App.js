@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper"
 import AboutMe from "./Pages/AboutMe";
 import Navbar from "./components/Navbar/navbar";
@@ -16,14 +16,12 @@ function App() {
       <Navbar />
         <Wrapper>
           <Sidebar />
-            <Router>
-              <Switch>
-                <Route exact path="/" component={Greeting} />
-                <Route exact path="/about" component={AboutMe} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route component={Greeting} />
-              </Switch>
-            </Router>
+            <HashRouter basename='/'>
+              <Route exact path="/" component={Greeting} />
+              <Route exact path="/about" component={AboutMe} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route component={Greeting} />
+            </HashRouter>
         </Wrapper>
     </div>
   );
