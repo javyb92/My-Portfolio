@@ -18,16 +18,10 @@ function App() {
           <Sidebar />
             <Router>
               <Switch>
-                    <Route exact path="/">
-                      <Greeting />
-                    </Route>
-                    <Route exact path="/about">
-                      <AboutMe />
-                    </Route>
-                    <Route exact path="/portfolio">
-                      <Portfolio />
-                    </Route>
-                    <Route component={Greeting} />
+                <Route exact path="/" component={Greeting} />
+                <Route exact path="/about" component={AboutMe} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route component={Greeting} />
               </Switch>
             </Router>
         </Wrapper>
