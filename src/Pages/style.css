@@ -24,6 +24,10 @@ h1{
     font-size: 80px;
 }
 
+.statement{
+    font-family: 'Tomorrow', sans-serif;
+}
+
 h4{
     font-family: 'Tomorrow', sans-serif;
 }
@@ -43,7 +47,7 @@ b{
 
 #sidenav{
     background-color: #303E47;
-    height: 100vmin;
+    height: 100vh;
     border-right: 10px solid #CFB53B;
     padding: 5px;
     /* position: fixed; */
@@ -93,8 +97,8 @@ a.nav-link:hover{
 footer{
     font-family: 'Tomorrow', sans-serif;
     font-size: xx-small;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0%;
 }
 
 article{
@@ -110,6 +114,7 @@ article{
 #card-holder{
     /* padding: 25px 25px 25px 50px; */
     padding-left: 5px;
+    /* position: relative; */
     /* margin: 10px 0px 10px 311.750px; */
 }
 
