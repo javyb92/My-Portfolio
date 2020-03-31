@@ -13,16 +13,16 @@ import "./Pages/style.css"
 function App() {
   return (
     <div>
-      <Navbar />
+      <HashRouter basename='/'>
         <Wrapper>
-          <Sidebar />
-            <HashRouter basename='/'>
+          <Navbar />
+            <Sidebar />
               <Route exact path="/" component={Greeting} />
               <Route exact path="/about" component={AboutMe} />
               <Route exact path="/portfolio" component={Portfolio} />
-              {/* <Route component={Greeting} /> */}
-            </HashRouter>
+              {/* <Route path="*" component={Greeting} /> */}
         </Wrapper>
+      </HashRouter>
     </div>
   );
 }
