@@ -26,6 +26,7 @@ h1{
 
 .statement{
     font-family: 'Tomorrow', sans-serif;
+    font-size: large;
 }
 
 h4{
@@ -150,6 +151,15 @@ article{
         display: none;
     
     }
+    h1{
+        font-size: medium;
+    }
+
+    .statement{
+
+        font-size: x-small;
+
+    }
 
  }
 
@@ -165,7 +175,6 @@ article{
         display: flex;
     
     }
-
  }
 
  /* width */
