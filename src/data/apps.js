@@ -15,8 +15,8 @@ const apps = [
         "image": require("../img/stocksheet.png"),
         "tools": "HTML/CSS, Javascript, Bootstrap, jQuery, Yahoo Finance FREE API, Handlebars.js, Sequelize",
         "links": {
-            "githubUrl": "https://github.com/deloabra/recipe-rat",
-            "demoUrl": "https://deloabra.github.io/recipe-rat/"
+            "githubUrl": "https://github.com/javyb92/project-2",
+            "demoUrl": "https://project2-umesh-brett-javier-sa.herokuapp.com/"
         }
     },
     {
