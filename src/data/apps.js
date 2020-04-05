@@ -21,7 +21,7 @@ const apps = [
     },
     {
         "name": "Weather Feather",
-        "description": "A fully function web app displaying current temperature, humidity, windspeed, UV Index and a 5 Day Forecast with corresponding icons.",
+        "description": "A fully functional web app displaying current temperature, humidity, windspeed, UV Index and a 5 Day Forecast with corresponding icons.",
         "image": require("../img/wf.png"),
         "tools": "HTML/CSS, Javascript, Bootstrap, jQuery, AJAX",
         "links": {
@@ -37,6 +37,16 @@ const apps = [
         "links": {
             "githubUrl": "https://github.com/javyb92/Eat-Da-Krabby-Patty-",
             "demoUrl": "https://cryptic-savannah-77407.herokuapp.com/"
+        }
+    },
+    {
+        "name": "Coming Soon!",
+        "description": "Always building...This upcoming app will utilize the full MERN Stack, I don't have a working demo that can showcase my skills,but it is indeed coming!",
+        "image": require("../img/COMING SOON.png"),
+        "tools": "MongoDB, Mongoose, React.js, Node.js",
+        "links": {
+            "githubUrl": "https://github.com/javyb92/",
+            "demoUrl": "https://github.com/javyb92/"
         }
     }
     // ,
