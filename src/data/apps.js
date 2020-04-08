@@ -13,7 +13,7 @@ const apps = [
         "name": "Stock Sheet",
         "description": "A 100% Full-Stack Developed Mobile Friendly Website with a login page that pulls up to date stocks custom to each user!",
         "image": require("../img/stocksheet.png"),
-        "tools": "HTML/CSS, Javascript, Bootstrap, jQuery, Yahoo Finance FREE API, Handlebars.js, Sequelize",
+        "tools": "HTML/CSS, Javascript, Bootstrap, jQuery, Handlebars.js, Sequelize",
         "links": {
             "githubUrl": "https://github.com/javyb92/project-2",
             "demoUrl": "https://project2-umesh-brett-javier-sa.herokuapp.com/"
@@ -30,20 +30,20 @@ const apps = [
         }
     },
     {
-        "name": "Krabby Patty App",
-        "description": "The Krusty Krab Eat Da Patty App lets you 'devour' all the Krusty Krabs availble Krabby Patties!",
-        "image": require("../img/krustykrab.png"),
-        "tools": "HTML/CSS, Javascript, Bootstrap, jQuery, MySQL, Node.js, Express, Handlebars",
+        "name": "Whisket",
+        "description": "A MERN app that pairs two of the available 35 whiskeys for a live vote that can be shared with a URL! Full authentication is functional as well as votesbeing backed up in the backend.",
+        "image": require("../img/whisket.png"),
+        "tools": "MongoDB, Mongoose, Express.js, React.js, Node.js, Bootstrap",
         "links": {
-            "githubUrl": "https://github.com/javyb92/Eat-Da-Krabby-Patty-",
-            "demoUrl": "https://cryptic-savannah-77407.herokuapp.com/"
+            "githubUrl": "https://github.com/javyb92/project3",
+            "demoUrl": "https://quiet-badlands-95961.herokuapp.com/"
         }
     },
     {
-        "name": "Coming Soon!",
-        "description": "Always building...This upcoming app will utilize the full MERN Stack, I don't have a working demo that can showcase my skills,but it is indeed coming!",
+        "name": "Solo-Project (Post Bootcamp)",
+        "description": "Never going to stop learning...This upcoming app will utilize the full MERN Stack, I don't have a working demo as of yet, but it is coming!",
         "image": require("../img/COMING SOON.png"),
-        "tools": "MongoDB, Mongoose, React.js, Node.js",
+        "tools": "MongoDB, Mongoose, Express, React.js, Node.js",
         "links": {
             "githubUrl": "https://github.com/javyb92/",
             "demoUrl": "https://github.com/javyb92/"
