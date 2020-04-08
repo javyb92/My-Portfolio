@@ -1,0 +1,10 @@
+#topbar{
+    background-color: #303E47;
+    border-bottom: 5px solid #CFB53B;
+    width: 100vw;
+    display:none;
+}
+
+.navbar-toggler-icon{
+    background-color: #CFB53B;
+}

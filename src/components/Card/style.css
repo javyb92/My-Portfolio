@@ -1,0 +1,11 @@
+.card{
+    background-color: #303E47;
+    border: 1px solid #303E47;
+    margin: 10px;
+}
+
+.btn{
+    background-color: #CFB53B;
+    margin: 10px;
+    font-family:'Tomorrow', sans-serif;
+}

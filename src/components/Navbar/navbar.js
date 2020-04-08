@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../Pages/style.css"
+import "./style.css"
 import icon from "../../img/icon.png"
 
 
