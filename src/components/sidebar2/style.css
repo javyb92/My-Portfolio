@@ -1,0 +1,127 @@
+:root{
+    font: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --text-primary: black;
+    --text-secondary: grey;
+
+}
+
+body{
+    color: black;
+    background-color: silver;
+    margin: 0;
+    padding:0;
+}
+
+/* body::-webkit-scrollbar{
+    
+} */
+
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar{
+    top: 0;
+    width: 3.5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #303E47;
+    transition: width 150ms ease;
+    border-right: 2px solid #CFB53B;
+    box-shadow: 1px 0px 5px black;
+}
+
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item{
+    width: 100%;
+}
+
+.nav-item:hover{
+    background-color: rgba(37, 47, 54, 0.25);
+    border-right: 4px solid #d40000;
+}
+
+.nav-item:last-child{
+    margin-top: auto;
+    font-size: 30px;
+    margin-bottom:5px ;
+}
+
+a.nav-link{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    color: #CFB53B;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+a:hover{
+    color:#303E47 ;
+    text-decoration: none;
+}
+
+a.nav-link.active{
+    color: #d40000;
+}
+    
+a.nav-link:hover{
+    color: #d40000;
+}
+
+.link-text{
+    display: none;
+    margin: 0 1.5rem;
+}
+
+.nav-link svg{
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover{
+    width: 12rem;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+#toggle{
+    color: #CFB53B;
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+    /* display: none; */
+}
+
+.navbar:hover #toggle{
+    color: #d40000;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: rotate(-180deg)
+}
+
+.logo{
+    height: auto;
+    width: 50px
+}
+
+
+/* Large Screens and desktops remove toggle button, any resolution lower the toggle appears for touch screen users */
+@media only screen and (min-width: 1025px){
+
+    #toggle{
+        display: none;
+    }
+}

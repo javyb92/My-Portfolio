@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/navbar";
 import Sidebar from "./components/Sidebar/sidebar";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Greeting from "./Pages/Greeting/Greeting";
+// import Sidebar2 from "./components/sidebar2/sidebar2"
 import "./Pages/style.css"
 
 
@@ -17,6 +18,7 @@ function App() {
         <Wrapper>
           <Navbar />
             <Sidebar />
+            {/* <Sidebar2/> */}
               <Route exact path="/" component={Greeting} />
               <Route exact path="/about" component={AboutMe} />
               <Route exact path="/portfolio" component={Portfolio} />
