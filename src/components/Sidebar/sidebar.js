@@ -17,7 +17,7 @@ function Sidebar() {
             <a className="nav-link" href="#portfolio"><i className="fas fa-file-code"></i> PORTFOLIO</a>
             <a className="nav-link" href="https://github.com/javyb92"><i className="fab fa-github-square"></i> GITHUB</a>
             <a className="nav-link" href="https://www.linkedin.com/in/javierabarragan92/"><i className="fab fa-linkedin"></i> LINKEDIN</a>
-            <a className="nav-link" href="https://drive.google.com/file/d/1wKBuOYwei2sSU71VRly6R5XErZvi6FyX/view?usp=sharing"><i className="fas fa-journal-whills"></i> RESUME</a>
+            <a className="nav-link" href="https://drive.google.com/file/d/1xv5GSXcNAs5A7eWuMEvnwZMPBAvodKNE/view?usp=sharing"><i className="fas fa-journal-whills"></i> RESUME</a>
           <footer>
               <p>© Copyright 2020 Javier A. Barragan</p>
           </footer>
