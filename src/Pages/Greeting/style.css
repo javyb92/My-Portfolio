@@ -1,6 +1,6 @@
 .greeting-text{
     text-align: center;
-    padding: 17%;
+    padding: 13%;
 }
 
 .statement{
@@ -12,9 +12,17 @@
     background-image: url('../../img/background2.jpg'); 
     background-size: cover;
     background-repeat: no-repeat; 
-    margin: 0px auto;
-    object-fit: fill;
+    padding: 10%;
+    box-shadow: 1px 0px 5px black;    
+}
 
+.greeting-icon{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.greeting-link:hover{
+    color: #d40000;
 }
 
 #backgroundpic{

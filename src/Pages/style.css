@@ -1,7 +1,7 @@
 body{
 
     background-color: #556168;
-    color: gainsboro;
+    color: white;
     font-family: 'Roboto', sans-serif;
 
 
@@ -24,49 +24,25 @@ b{
     color: #CFB53B;
 }
 
-.wrapper{
-    padding: 0px;
-    margin: 0px;
+section{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 /* SIDEBAR/NAVBAR CHANGE ON RESOLUTION */
 
  @media (max-width: 1186.98px){ 
 
-    #topbar{
-
-        display: flex;
-    }
-
-    #sidenav{
-        
-        display: none;
-    
-    }
     h1{
-        font-size: medium;
+        font-size: x-large;
     }
 
     .statement{
 
-        font-size: x-small;
+        font-size: small;
 
     }
 
- }
-
- @media (min-width: 1186.98px) { 
-
-    #topbar{
-
-        display: none;
-    }
-
-    #sidenav{
-        
-        display: flex;
-    
-    }
  }
 
  /* width */

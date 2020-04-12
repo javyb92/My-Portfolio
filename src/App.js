@@ -1,31 +1,32 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
-import Wrapper from "./components/Wrapper"
 import AboutMe from "./Pages/AboutMe/AboutMe";
-import Navbar from "./components/Navbar/navbar";
-import Sidebar from "./components/Sidebar/sidebar";
-import Portfolio from "./Pages/Portfolio/Portfolio";
+import ContactMe from "./Pages/ContactMe/ContactMe";
+import Footer from "./components/Footer/footer";
 import Greeting from "./Pages/Greeting/Greeting";
-// import Sidebar2 from "./components/sidebar2/sidebar2"
+import Portfolio from "./Pages/Portfolio/Portfolio";
+import Sidebar2 from "./components/sidebar2/sidebar2"
 import "./Pages/style.css"
 
 
 
 function App() {
   return (
-    <div>
+    // <div>
       <HashRouter basename='/'>
-        <Wrapper>
-          <Navbar />
-            <Sidebar />
-            {/* <Sidebar2/> */}
-              <Route exact path="/" component={Greeting} />
+        <Sidebar2/>
+        <Greeting/>
+        <AboutMe/>
+        <Portfolio/>
+        <ContactMe/>
+        <Footer/>
+              {/* <Route exact path="/" component={Greeting} />
               <Route exact path="/about" component={AboutMe} />
-              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/portfolio" component={Portfolio} /> */}
               {/* <Route path="*" component={Greeting} /> */}
-        </Wrapper>
+        {/* </Wrapper> */}
       </HashRouter>
-    </div>
+    // </div>
   );
 }
 

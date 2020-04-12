@@ -6,13 +6,6 @@
 
 }
 
-body{
-    color: black;
-    background-color: silver;
-    margin: 0;
-    padding:0;
-}
-
 /* body::-webkit-scrollbar{
     
 } */
@@ -24,13 +17,15 @@ main{
 
 .navbar{
     top: 0;
-    width: 3.5rem;
+    width: 3rem;
     height: 100vh;
     position: fixed;
     background-color: #303E47;
     transition: width 150ms ease;
     border-right: 2px solid #CFB53B;
     box-shadow: 1px 0px 5px black;
+    padding: 0;
+    z-index: 1;
 }
 
 .navbar-nav{
@@ -40,6 +35,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     height: 100%;
 }
 
@@ -49,12 +45,12 @@ main{
 
 .nav-item:hover{
     background-color: rgba(37, 47, 54, 0.25);
-    border-right: 4px solid #d40000;
+    border-left: 4px solid #d40000;
 }
 
 .nav-item:last-child{
     margin-top: auto;
-    font-size: 30px;
+    /* font-size: 25px; */
     margin-bottom:5px ;
 }
 
@@ -65,6 +61,8 @@ a.nav-link{
     color: #CFB53B;
     text-decoration: none;
     margin-left: 1rem;
+    width: 100%;
+    padding: 0;
 }
 
 a:hover{
@@ -82,6 +80,7 @@ a.nav-link:hover{
 
 .link-text{
     display: none;
+    font-family: 'Tomorrow', sans-serif;
     margin: 0 1.5rem;
 }
 
@@ -100,16 +99,24 @@ a.nav-link:hover{
 
 #toggle{
     color: #CFB53B;
-    transform: rotate(0deg);
-    transition: transform var(--transition-speed);
-    /* display: none; */
+    display: block;
+}
+
+#toggle2{
+    color: #CFB53B;
+    display: none;
 }
 
 .navbar:hover #toggle{
     color: #d40000;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    transform: rotate(-180deg)
+    display: none
+}
+
+.navbar:hover #toggle2{
+    color: #d40000;
+    display: block;
+    transition: width 150ms ease;
+    padding-left: 4.5rem;
 }
 
 .logo{
@@ -122,6 +129,14 @@ a.nav-link:hover{
 @media only screen and (min-width: 1025px){
 
     #toggle{
+        display: none;
+    }
+
+    #toggle2{
+        display: none;
+    }
+
+    .navbar:hover #toggle2{
         display: none;
     }
 }

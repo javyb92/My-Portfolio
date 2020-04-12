@@ -8,7 +8,8 @@ class Cards extends Component {
 
   render(){
     return (
-        <section className="container col-9 justify-items-center" id="card-holder">
+        <div className="justify-items-center" id="card-holder">
+          <h5>MyWork</h5>
           <div class="card-deck">
           {apps.map(function(app, index){
                 return (
@@ -16,10 +17,7 @@ class Cards extends Component {
                 );
               })}
           </div>
-        </section>
-
-
-
+        </div>
     );
   } 
 }

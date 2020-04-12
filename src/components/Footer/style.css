@@ -1,0 +1,27 @@
+footer{
+    margin-top: 150px;
+    height: 125px;
+    bottom: 0;
+    background-color:#303E47;
+    box-shadow: 1px 0px 10px black;;
+    padding: 25px;
+}
+
+.content{
+    align-content: center;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon{
+    color: #CFB53B;
+    margin: 20px;
+}
+
+.footer-icon:hover{
+    color: #d40000;
+    margin: 20px;
+}

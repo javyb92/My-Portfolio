@@ -1,6 +1,7 @@
-#card-holder{
-    /* padding: 25px 25px 25px 50px; */
-    padding-left: 5px;
-    /* position: relative; */
-    /* margin: 10px 0px 10px 311.750px; */
+@media (max-width: 768px){ 
+    .card-deck{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
 }

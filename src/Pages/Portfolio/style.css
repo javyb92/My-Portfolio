@@ -1,20 +1,18 @@
-
-.javier{
-
-    border: 2px solid #CFB53B;
-    margin: 10px;
-
-}
-
-.aboutme{
+.portfolio{
     background-color: #303E47;
     box-shadow: 1px 0px 10px black;
     padding: 25px;
-    font-size: medium;
+}
+
+@media (max-width: 768px){ 
+    .portfolio{
+        margin-right: -50px;
+        margin-left: -10px;
+    }
 }
 
 @media (max-width: 426px){ 
-    .aboutme{
+    .portfolio{
         margin-right: -50px;
         margin-left: -10px;
     }

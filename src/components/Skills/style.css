@@ -1,0 +1,10 @@
+.skills{
+    text-align: center;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 1px 0px 5px black;     */
+    font-size: small;
+    justify-content: center;
+    align-content: center;
+}
