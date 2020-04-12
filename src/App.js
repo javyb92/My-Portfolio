@@ -12,7 +12,6 @@ import "./Pages/style.css"
 
 function App() {
   return (
-    // <div>
       <HashRouter basename='/'>
         <Sidebar2/>
         <Greeting/>
@@ -24,9 +23,7 @@ function App() {
               <Route exact path="/about" component={AboutMe} />
               <Route exact path="/portfolio" component={Portfolio} /> */}
               {/* <Route path="*" component={Greeting} /> */}
-        {/* </Wrapper> */}
       </HashRouter>
-    // </div>
   );
 }
 

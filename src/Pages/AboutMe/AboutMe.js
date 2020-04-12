@@ -4,7 +4,7 @@ import portfoliopic from "../../img/portfoliopic.png"
 
 function AboutMe() {
     return (
-        <section className="container col-10">
+        <section className="container col-10" id="about">
             <div className="aboutme">
                     <img src={portfoliopic} width="180" height="auto" className="float-left d-flex flex-wrap javier" alt="Javier A. Barragan" />
                     <p><b>Location:</b> Dallas, Texas</p>
