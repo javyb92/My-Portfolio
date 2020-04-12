@@ -7,26 +7,26 @@ import icon from "../../img/icon.png";
 
 function Sidebar2() {
     return (
-        <nav class="navbar">
-            <ul class="navbar-nav">
-                <li class="logo">
-                    <Link to="greeting" class="nav-link" id="logo" smooth={true} duration={1000}>
-                        <img class="logo" src={icon}></img>
+        <nav className="navbar">
+            <ul className="navbar-nav">
+                <li className="logo">
+                    <Link to="greeting" className="nav-link" id="logo" smooth={true} duration={1000}>
+                        <img className="logo" src={icon}></img>
                     </Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="about" class="nav-link" smooth={true} offset={-145} duration={1000}>
-                        <i className="fas fa-id-card"></i><span class="link-text"> ABOUT ME</span>
+                <li className="nav-item">
+                    <Link to="about" className="nav-link" smooth={true} offset={-145} duration={1000}>
+                        <i className="fas fa-id-card"></i><span className="link-text"> ABOUT ME</span>
                     </Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="portfolio" class="nav-link" smooth={true} offset={-50}  duration={1000}>
-                        <i className="fas fa-file-code"></i> <span class="link-text"> PORTFOLIO</span>
+                <li className="nav-item">
+                    <Link to="portfolio" className="nav-link" smooth={true} offset={-50}  duration={1000}>
+                        <i className="fas fa-file-code"></i> <span className="link-text"> PORTFOLIO</span>
                     </Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="contact-me" class="nav-link" smooth={true} duration={1000}>
-                        <i class="fas fa-envelope"></i> <span class="link-text"> CONTACT ME</span>
+                <li className="nav-item">
+                    <Link to="contact-me" className="nav-link" smooth={true} duration={1000}>
+                        <i className="fas fa-envelope"></i> <span className="link-text"> CONTACT ME</span>
                     </Link>
                 </li>
                 {/* <li class="nav-item">
@@ -39,15 +39,15 @@ function Sidebar2() {
                         <i className="fab fa-linkedin"></i><span class="link-text"> LINKEDIN</span>
                     </a>
                 </li> */}
-                <li class="nav-item">
-                    <a href="https://drive.google.com/file/d/1xv5GSXcNAs5A7eWuMEvnwZMPBAvodKNE/view?usp=sharing" class="nav-link">
-                    <i className="fas fa-journal-whills"></i><span class="link-text"> RESUME</span>
+                <li className="nav-item">
+                    <a href="https://drive.google.com/file/d/1xv5GSXcNAs5A7eWuMEvnwZMPBAvodKNE/view?usp=sharing" className="nav-link">
+                    <i className="fas fa-journal-whills"></i><span className="link-text"> RESUME</span>
                     </a>
                 </li>
-                <li class="nav-item" id="last">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-caret-square-right" id="toggle"></i>
-                        <i class="fas fa-caret-square-left" id="toggle2"></i>
+                <li className="nav-item" id="last">
+                    <a href="#" className="nav-link">
+                        <i className="fas fa-caret-square-right" id="toggle"></i>
+                        <i className="fas fa-caret-square-left" id="toggle2"></i>
                     </a>
                 </li>
             </ul>

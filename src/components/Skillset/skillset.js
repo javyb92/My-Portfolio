@@ -9,7 +9,7 @@ class Skillset extends Component {
     return (
         <div className="skill-set">
           <h5>Skills</h5>
-          <div class="container-flex row my-skills">
+          <div className="container-flex row my-skills">
           {tech.map(function(app, index){
                 return (
                   <Skill app={app} />

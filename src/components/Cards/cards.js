@@ -10,7 +10,7 @@ class Cards extends Component {
     return (
         <div className="justify-items-center" id="card-holder">
           <h5>MyWork</h5>
-          <div class="card-deck">
+          <div className="card-deck">
           {apps.map(function(app, index){
                 return (
                   <Card app={app} />

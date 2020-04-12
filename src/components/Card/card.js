@@ -5,11 +5,11 @@ function Card(props) {
     // console.log(this.props);
     const app = props.app;
     return(
-            <div class="card">
-                <img src= {app.image} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">{app.name}</h5>
-                        <p class="card-text">{app.description}</p>
+            <div className="card">
+                <img src= {app.image} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">{app.name}</h5>
+                        <p className="card-text">{app.description}</p>
                         <p className="card-text"><b>Tools Used: </b>{app.tools}</p>
                         <button type="button" className="btn btn-light btn-sm"><a href={app.links.githubUrl}>GITHUB</a></button>
                         <button type="button" className="btn btn-light btn-sm"><a href={app.links.demoUrl}>LIVE</a></button>
