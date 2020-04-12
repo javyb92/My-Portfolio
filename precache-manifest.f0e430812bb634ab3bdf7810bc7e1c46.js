@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4762b2137a83882efef464dc3ad3eb25",
+    "revision": "e68cdcfbc1630e7458ceb41aa2f347b5",
     "url": "/index.html"
   },
   {
-    "revision": "e5feb154fcfdce8ebb88",
-    "url": "/static/css/main.9e233a16.chunk.css"
+    "revision": "e311c2bb9c13b60f85aa",
+    "url": "/static/css/main.f0f271df.chunk.css"
   },
   {
-    "revision": "889ab053e3b4eb9e48d4",
-    "url": "/static/js/2.a93f3764.chunk.js"
+    "revision": "63a005bc39330f187e26",
+    "url": "/static/js/2.99df62e5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.a93f3764.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.99df62e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5feb154fcfdce8ebb88",
-    "url": "/static/js/main.a5dbc936.chunk.js"
+    "revision": "e311c2bb9c13b60f85aa",
+    "url": "/static/js/main.95dfb034.chunk.js"
   },
   {
     "revision": "166cf5f8ec0cbaf35406",
@@ -28,8 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background2.8d31cf61.jpg"
   },
   {
+    "revision": "fcab731bc3b4e3b84cc990a90894d067",
+    "url": "/static/media/css3.fcab731b.png"
+  },
+  {
+    "revision": "67b8e7b8d61810d7ec7de4a645ca6553",
+    "url": "/static/media/html5.67b8e7b8.png"
+  },
+  {
     "revision": "73daf0310214ba8b24a3713bd00ed1c9",
     "url": "/static/media/icon.73daf031.png"
+  },
+  {
+    "revision": "22f7f8afc2c1d303ceac56bf7c649fe2",
+    "url": "/static/media/mysql.22f7f8af.png"
+  },
+  {
+    "revision": "f28f637387cc20f0342315d88819411d",
+    "url": "/static/media/node.f28f6373.png"
   },
   {
     "revision": "4c4e884ee05ea041d1e43b3d6acb53fa",
@@ -38,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e140ba29dd4b75d5a4c1f9326df9d539",
     "url": "/static/media/recipe_rat.e140ba29.png"
+  },
+  {
+    "revision": "072e8542fabca270e17fcfe934edd3fd",
+    "url": "/static/media/sequelize.072e8542.png"
   },
   {
     "revision": "26800c10fb6416b091d60ead354bde3f",
