@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.74cd3aeb.chunk.css",
+    "main.css": "/static/css/main.520b2bd8.chunk.css",
     "main.js": "/static/js/main.96c7d84b.chunk.js",
     "main.js.map": "/static/js/main.96c7d84b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d8445b1d.js",
@@ -8,11 +8,11 @@
     "static/js/2.2e9f890a.chunk.js": "/static/js/2.2e9f890a.chunk.js",
     "static/js/2.2e9f890a.chunk.js.map": "/static/js/2.2e9f890a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ba280f6fde3e54f07d038812d1b31608.js": "/precache-manifest.ba280f6fde3e54f07d038812d1b31608.js",
+    "precache-manifest.19a23670f2a9a74d73e05972367f2588.js": "/precache-manifest.19a23670f2a9a74d73e05972367f2588.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.74cd3aeb.chunk.css.map": "/static/css/main.74cd3aeb.chunk.css.map",
+    "static/css/main.520b2bd8.chunk.css.map": "/static/css/main.520b2bd8.chunk.css.map",
     "static/js/2.2e9f890a.chunk.js.LICENSE.txt": "/static/js/2.2e9f890a.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/static/media/background3.332836cd.webp",
+    "static/media/style.css": "/static/media/background3.f3eee05a.jpg",
     "static/media/portfoliopic.png": "/static/media/portfoliopic.4c4e884e.png",
     "static/media/recipe_rat.png": "/static/media/recipe_rat.a5919258.png",
     "static/media/stocksheet.jpg": "/static/media/stocksheet.27cd349b.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.d8445b1d.js",
     "static/js/2.2e9f890a.chunk.js",
-    "static/css/main.74cd3aeb.chunk.css",
+    "static/css/main.520b2bd8.chunk.css",
     "static/js/main.96c7d84b.chunk.js"
   ]
 }
