@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 import AboutMe from "./Pages/AboutMe/AboutMe";
-import ContactMe from "./Pages/ContactMe/ContactMe";
+import ContactForm from "./Pages/ContactMe/ContactForm";
 import Footer from "./components/Footer/footer";
 import Greeting from "./Pages/Greeting/Greeting";
 import Portfolio from "./Pages/Portfolio/Portfolio";
@@ -17,7 +17,7 @@ function App() {
         <Greeting/>
         <AboutMe/>
         <Portfolio/>
-        <ContactMe/>
+        <ContactForm/>
         <Footer/>
               {/* <Route exact path="/" component={Greeting} />
               <Route exact path="/about" component={AboutMe} />
