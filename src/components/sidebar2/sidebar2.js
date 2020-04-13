@@ -30,7 +30,7 @@ function Sidebar2() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="https://drive.google.com/file/d/1xv5GSXcNAs5A7eWuMEvnwZMPBAvodKNE/view?usp=sharing" className="nav-link">
+                        <a href="https://drive.google.com/file/d/1bOasN2mM2-loymUKdK3gKC9cF6naOk5F/view?usp=sharing" className="nav-link">
                         <i className="fas fa-journal-whills"></i><span className="link-text"> RESUME</span>
                         </a>
                     </li>
