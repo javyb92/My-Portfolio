@@ -14,7 +14,7 @@ function Greeting() {
                     <a href="https://www.linkedin.com/in/javierabarragan92/" className="greeting-link">
                         <i className="fab fa-linkedin greeting-icon"></i>
                     </a>
-                    <a href="https://www.instagram.com/_j.a.barragan_/" className="greeting-link">
+                    <a href="https://www.instagram.com/javyb92/" className="greeting-link">
                         <i className="fab fa-instagram greeting-icon"></i>
                     </a>
                 </div>

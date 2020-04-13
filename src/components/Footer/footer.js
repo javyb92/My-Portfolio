@@ -13,7 +13,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/javierabarragan92/" className="footer-link">
                         <i className="fab fa-linkedin footer-icon"></i>
                     </a>
-                    <a href="https://www.instagram.com/_j.a.barragan_/" className="footer-link">
+                    <a href="https://www.instagram.com/javyb92/" className="footer-link">
                         <i className="fab fa-instagram footer-icon"></i>
                     </a>
                 </div>
