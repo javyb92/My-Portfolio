@@ -16,10 +16,10 @@ const tech = [
         "name": "Git",
         "image": require("../img/icons/git.png"),
     },
-    // {
-    //     "name": "Handlebars",
-    //     "image": require("../img/icons/handlebars-js.png"),
-    // },
+    {
+        "name": "Handlebars",
+        "image": require("../img/icons/handlebars-js.png"),
+    },
     {
         "name": "HTML5",
         "image": require("../img/icons/html5.png"),
@@ -45,7 +45,11 @@ const tech = [
         "image": require("../img/icons/node.png"),
     },
     {
-        "name": "Sequelize",
+        "name": "React",
+        "image": require("../img/icons/react.png"),
+    },
+    {
+        "name":"Sequelize",
         "image": require("../img/icons/sequelize.png"),
     },
 ]

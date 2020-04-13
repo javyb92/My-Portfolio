@@ -4,7 +4,7 @@ a{
 
 .card{
     background-color: #303E47;
-    border: 1px solid #CFB53B;
+    border: 1px solid #D3BB4C;
     margin: 10px;
     font-size: small;
     box-shadow: 1px 0px 10px black;
@@ -16,7 +16,7 @@ div.card-body{
 }
 
 .btn{
-    background-color: #CFB53B;
+    background-color: #D3BB4C;
     border: 0px;
     margin: 5%
 }
@@ -26,6 +26,6 @@ div.card-body{
 }
 
 h5{
-    color: #CFB53B;
+    color: #D3BB4C;
     text-align: center;
 }

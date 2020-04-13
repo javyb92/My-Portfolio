@@ -6,7 +6,7 @@ function Skill(props) {
     const app = props.app;
     return(
         <div className="skills">
-            <img src={app.image} width="30" height="30"></img>
+            <img src={app.image} width="30" height="30" alt={app.name}></img>
             <p>{app.name}</p>
         </div>
     )

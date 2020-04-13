@@ -9,12 +9,16 @@ textarea{
     height: 200px;
 }
 
+.message{
+    width: 100%;
+}
+
 .labels{
     margin: 10px
 }
 
 button{
-    background-color: #CFB53B;
+    background-color: #D3BB4C;
     color: white;
     border: none;
 }

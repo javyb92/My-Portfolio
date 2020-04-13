@@ -19,10 +19,6 @@ function App() {
         <Portfolio/>
         <ContactForm/>
         <Footer/>
-              {/* <Route exact path="/" component={Greeting} />
-              <Route exact path="/about" component={AboutMe} />
-              <Route exact path="/portfolio" component={Portfolio} /> */}
-              {/* <Route path="*" component={Greeting} /> */}
       </HashRouter>
   );
 }

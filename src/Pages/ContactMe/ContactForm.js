@@ -39,14 +39,16 @@ const encode = (data) => {
                 <form onSubmit={this.handleSubmit}>
                     <p>
                         <label>
-                        Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+                        Your Name: <input type="text" name="name" placeholder="John/Jane Doe" value={name} onChange={this.handleChange} />
                         </label>
                         <label>
-                        Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+                        Your Email: <input type="email" name="email" placeholder="email@email.com" value={email} onChange={this.handleChange} />
                         </label>
                     </p>
                     <p>
-                            <textarea name="message" value={message} onChange={this.handleChange}/>
+                      <label className="message">Message:
+                        <textarea name="message" value={message} placeholder="Write me a message and I'll get back to you as soon as possible!" onChange={this.handleChange}/>
+                      </label>
                     </p>
                     <p>
                         <button type="submit">Send</button>

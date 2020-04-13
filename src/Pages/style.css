@@ -21,7 +21,7 @@ h5{
 }
 
 b{
-    color: #CFB53B;
+    color: #D3BB4C;
 }
 
 section{
@@ -57,7 +57,7 @@ section{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #CFB53B;
+    background: #D3BB4C;
   }
   
   /* Handle on hover */

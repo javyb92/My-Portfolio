@@ -1,6 +1,6 @@
 .greeting-text{
     text-align: center;
-    padding: 13%;
+    padding: 10%;
 }
 
 .statement{
@@ -9,9 +9,11 @@
 }
 
 #greeting{
-    background-image: url('../../img/background2.jpg'); 
+    background-image: url('../../img/background3.webp'); 
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100vw;
     padding: 10%;
     box-shadow: 1px 0px 5px black;    
 }

@@ -3,7 +3,7 @@ import "../Greeting/style.css";
 
 function Greeting() {
     return (
-        <header className="jumbotron jumbotron-fluid col-12" id="greeting">   
+        <header className="container-fluid col-12" id="greeting"> 
             <div className="greeting-text">
                 <h1>JAVIER A. BARRAGAN</h1>
                 <p className="statement">I'm a Dallas based Web Developer, with the strongest desire to learn and produce.</p>
