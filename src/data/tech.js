@@ -29,6 +29,10 @@ const tech = [
         "image": require("../img/icons/js.png"),
     },
     {
+        "name": "jQuery",
+        "image": require("../img/icons/jquery.png"),
+    },
+    {
         "name": "MongoDB",
         "image": require("../img/icons/mongodb.png"),
     },

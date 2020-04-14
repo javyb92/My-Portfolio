@@ -3,6 +3,7 @@ const apps = [
         "name": "Recipe Rat",
         "description": "An application that allows you to search for a recipe and customize the ingredients to keep track of calories.",
         "image": require("../img/recipe_rat.png"),
+        "imagewebp": require("../img/recipe_rat.webp"),
         "tools": "HTML5/CSS3, Javascript, Bootstrap4, jQuery, and charts.js",
         "links": {
             "githubUrl": "https://github.com/deloabra/recipe-rat",
@@ -13,6 +14,7 @@ const apps = [
         "name": "Stock Sheet",
         "description": "A 100% Full-Stack Developed Mobile Friendly Application with a login page that pulls up to date stocks custom to each user!",
         "image": require("../img/stocksheet.jpg"),
+        "imagewebp": require("../img/stocksheet.webp"),
         "tools": "HTML5/CSS3, Javascript, Bootstrap4, jQuery, Handlebars.js, Sequelize",
         "links": {
             "githubUrl": "https://github.com/javyb92/project-2",
@@ -23,6 +25,7 @@ const apps = [
         "name": "Weather Feather",
         "description": "An application displaying current temperature, humidity, windspeed, UV Index and a 5 Day Forecast.",
         "image": require("../img/wf.jpg"),
+        "imagewebp": require("../img/wf.webp"),
         "tools": "HTML5/CSS3, Javascript, Bootstrap4, jQuery, AJAX, OpenWeater API",
         "links": {
             "githubUrl": "https://github.com/javyb92/Weather-Feather",
@@ -33,6 +36,7 @@ const apps = [
         "name": "Whisket",
         "description": "A MERN app that pairs two of the available 35 whiskeys for a live vote! Votes is being backed up in the backend.",
         "image": require("../img/whisket.jpg"),
+        "imagewebp": require("../img/whisket.webp"),
         "tools": "HTML5/CSS3, Bootstrap4, MongoDB, Mongoose, Express, React, Node",
         "links": {
             "githubUrl": "https://github.com/javyb92/project3",

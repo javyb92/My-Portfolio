@@ -1,5 +1,4 @@
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import ContactForm from "./Pages/ContactMe/ContactForm";
 import Footer from "./components/Footer/footer";
@@ -12,14 +11,14 @@ import "./Pages/style.css"
 
 function App() {
   return (
-      <HashRouter basename='/'>
+    <div>
         <Sidebar2/>
         <Greeting/>
         <AboutMe/>
         <Portfolio/>
         <ContactForm/>
         <Footer/>
-      </HashRouter>
+    </div>
   );
 }
 

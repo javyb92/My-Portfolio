@@ -1,6 +1,7 @@
 import React from "react";
 import "../AboutMe/style.css";
 import portfoliopic from "../../img/portfoliopic.png"
+// import portfoliopicwebp from "../../img/portfoliopic."
 
 function AboutMe() {
     return (

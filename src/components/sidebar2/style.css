@@ -124,7 +124,7 @@ a.nav-link:hover{
 .navbar:hover #toggle2{
     color: #d40000;
     display: block;
-    transition: width 150ms ease;
+    transition: width 250ms ease;
     padding-left: 4.5rem;
 }
 
