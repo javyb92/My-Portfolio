@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className="container col-12">
             <div className="content">
-                <h5>Created with <img src={reacticon} width="16" alt="React.js"/> <img src={bootstrapicon} width="20" alt="Bootstrap4"/> by Javier A. Barragan</h5>
+                <h5 className="footer-text">Created with <img src={reacticon} width="16" alt="React.js"/> <img src={bootstrapicon} width="20" alt="Bootstrap4"/> by Javier A. Barragan</h5>
                 <div className="social-media">
                     <a href="https://github.com/javyb92" className="footer-link">
                         <i className="fab fa-github-square footer-icon"></i>
