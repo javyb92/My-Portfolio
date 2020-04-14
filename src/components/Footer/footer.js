@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="container col-12">
             <div className="content">
-                <h5>Design by Javier A. Barragan</h5>
+                <h5>Design and made with ❤️ by Javier A. Barragan</h5>
                 <div className="social-media">
                     <a href="https://github.com/javyb92" className="footer-link">
                         <i className="fab fa-github-square footer-icon"></i>
