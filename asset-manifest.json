@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.520b2bd8.chunk.css",
-    "main.js": "/static/js/main.825884cb.chunk.js",
-    "main.js.map": "/static/js/main.825884cb.chunk.js.map",
+    "main.css": "/static/css/main.07f7c49a.chunk.css",
+    "main.js": "/static/js/main.a79e7ebb.chunk.js",
+    "main.js.map": "/static/js/main.a79e7ebb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d8445b1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.d8445b1d.js.map",
-    "static/js/2.2e9f890a.chunk.js": "/static/js/2.2e9f890a.chunk.js",
-    "static/js/2.2e9f890a.chunk.js.map": "/static/js/2.2e9f890a.chunk.js.map",
+    "static/js/2.674f9000.chunk.js": "/static/js/2.674f9000.chunk.js",
+    "static/js/2.674f9000.chunk.js.map": "/static/js/2.674f9000.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.56673828bc714b5276b744a9ca687169.js": "/precache-manifest.56673828bc714b5276b744a9ca687169.js",
+    "precache-manifest.3978f45f84a9c500d7d3786986c88f56.js": "/precache-manifest.3978f45f84a9c500d7d3786986c88f56.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.520b2bd8.chunk.css.map": "/static/css/main.520b2bd8.chunk.css.map",
-    "static/js/2.2e9f890a.chunk.js.LICENSE.txt": "/static/js/2.2e9f890a.chunk.js.LICENSE.txt",
+    "static/css/main.07f7c49a.chunk.css.map": "/static/css/main.07f7c49a.chunk.css.map",
+    "static/js/2.674f9000.chunk.js.LICENSE.txt": "/static/js/2.674f9000.chunk.js.LICENSE.txt",
     "static/media/style.css": "/static/media/background3.f3eee05a.jpg",
+    "static/media/jquery.png": "/static/media/jquery.213e50a1.png",
     "static/media/portfoliopic.png": "/static/media/portfoliopic.4c4e884e.png",
     "static/media/recipe_rat.png": "/static/media/recipe_rat.a5919258.png",
+    "static/media/recipe_rat.webp": "/static/media/recipe_rat.e02df9f4.webp",
     "static/media/stocksheet.jpg": "/static/media/stocksheet.27cd349b.jpg",
+    "static/media/stocksheet.webp": "/static/media/stocksheet.cf60a8f3.webp",
+    "static/media/wf.webp": "/static/media/wf.7e2425bf.webp",
     "static/media/wf.jpg": "/static/media/wf.82c10040.jpg",
-    "static/media/whisket.jpg": "/static/media/whisket.421fbed9.jpg"
+    "static/media/whisket.jpg": "/static/media/whisket.421fbed9.jpg",
+    "static/media/whisket.webp": "/static/media/whisket.f024df7c.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.d8445b1d.js",
-    "static/js/2.2e9f890a.chunk.js",
-    "static/css/main.520b2bd8.chunk.css",
-    "static/js/main.825884cb.chunk.js"
+    "static/js/2.674f9000.chunk.js",
+    "static/css/main.07f7c49a.chunk.css",
+    "static/js/main.a79e7ebb.chunk.js"
   ]
 }
