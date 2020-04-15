@@ -11,6 +11,7 @@ function Card(props) {
                         <h5 className="card-title">{app.name}</h5>
                         <p className="card-text">{app.description}</p>
                         <p className="card-text"><b>Tools Used: </b>{app.tools}</p>
+                        <p className="card-text"><b>Role: </b>{app.role}</p>
                         <button type="button" className="btn btn-light btn-sm"><a href={app.links.githubUrl}>GITHUB</a></button>
                         <button type="button" className="btn btn-light btn-sm"><a href={app.links.demoUrl}>LIVE</a></button>
                     </div>
