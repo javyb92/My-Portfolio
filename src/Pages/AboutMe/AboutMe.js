@@ -16,11 +16,15 @@ function AboutMe() {
         />
 
         <p>
-          <b>Location:</b> Dallas, Texas and open for relocation.
+          <b>Location:</b> Dallas, Texas and open for relocation anywhere in the
+          US.
         </p>
         <p>
-          <b>Bio: </b>Full-Stack web developer and US Army Veteran with a deep
-          desire to learn the latest technologies and gain experience help
+          <b>Email:</b> javier.a.barragan92@gmail.com
+        </p>
+        <p>
+          <b>Bio: </b>Full-Stack Software Developer and US Army Veteran with a
+          deep desire to learn the latest technologies and gain experience help
           create better user experiences on the web.
         </p>
         <p>

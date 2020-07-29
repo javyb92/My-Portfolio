@@ -7,8 +7,8 @@ function Greeting() {
       <div className="greeting-text">
         <h1>JAVIER A. BARRAGAN</h1>
         <p className="statement">
-          I'm a Dallas based Web Developer, with the strongest desire to learn
-          and produce.
+          I'm a Dallas based Software Developer, with the strongest desire to
+          learn and produce.
         </p>
         <div className="social-media">
           <a href="https://github.com/javyb92" className="greeting-link">
