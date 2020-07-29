@@ -1,6 +1,6 @@
 import React from "react";
 import AboutMe from "./Pages/AboutMe/AboutMe";
-import ContactForm from "./Pages/ContactMe/ContactForm";
+// import ContactForm from "./Pages/ContactMe/ContactForm";
 import Footer from "./components/Footer/footer";
 import Greeting from "./Pages/Greeting/Greeting";
 import Portfolio from "./Pages/Portfolio/Portfolio";
