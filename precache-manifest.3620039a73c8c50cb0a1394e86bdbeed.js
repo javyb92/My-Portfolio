@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f00f9983afb7e3f8f7c9d07d72964ff",
+    "revision": "2139f83eab008cd5ddc2383463d37c75",
     "url": "/index.html"
   },
   {
-    "revision": "4fbf0291a1a95cb854b9",
-    "url": "/static/css/main.3a62ef5b.chunk.css"
+    "revision": "72d21cf38e8406a6a389",
+    "url": "/static/css/main.a3aa3256.chunk.css"
   },
   {
     "revision": "1c5ed57c78202c3be588",
@@ -16,36 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.59229a8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4fbf0291a1a95cb854b9",
-    "url": "/static/js/main.ab022905.chunk.js"
+    "revision": "72d21cf38e8406a6a389",
+    "url": "/static/js/main.8a094a21.chunk.js"
   },
   {
     "revision": "166cf5f8ec0cbaf35406",
     "url": "/static/js/runtime-main.d8445b1d.js"
   },
   {
-    "revision": "f8aa7ea069c546ec59b88cb85d89de52",
-    "url": "/static/media/background2.f8aa7ea0.jpg"
+    "revision": "332836cd8a6cf85bf9f6fffe3c8a70a2",
+    "url": "/static/media/background3.332836cd.webp"
   },
   {
-    "revision": "f3eee05a9af75badf01e899f67f3804f",
-    "url": "/static/media/background3.f3eee05a.jpg"
-  },
-  {
-    "revision": "2750da9c0cddd2758f7d35e2dfbbde18",
-    "url": "/static/media/background4.2750da9c.jpg"
-  },
-  {
-    "revision": "730530bf6ab58e085445d8745f72fb0b",
-    "url": "/static/media/background5.730530bf.jpg"
-  },
-  {
-    "revision": "bc41159a8aab9de9cd67effa25b0a409",
-    "url": "/static/media/background6.bc41159a.jpg"
-  },
-  {
-    "revision": "4c4e884ee05ea041d1e43b3d6acb53fa",
-    "url": "/static/media/portfoliopic.4c4e884e.png"
+    "revision": "493114eb827591b4f971d9bc813b90c7",
+    "url": "/static/media/portfoliopic.493114eb.webp"
   },
   {
     "revision": "a59192584b007705b77b11400dc2b269",
@@ -64,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stocksheet.cf60a8f3.webp"
   },
   {
-    "revision": "3100871d38d880a152392db1fe0f43aa",
-    "url": "/static/media/wf.3100871d.png"
+    "revision": "24ecbc23e81fadd83c861f7cf1fe5184",
+    "url": "/static/media/wf.24ecbc23.webp"
   },
   {
-    "revision": "7e2425bfdfdd104b0bb3635ca953ef4e",
-    "url": "/static/media/wf.7e2425bf.webp"
+    "revision": "3100871d38d880a152392db1fe0f43aa",
+    "url": "/static/media/wf.3100871d.png"
   },
   {
     "revision": "421fbed91d50107fb982d6d54e0bad40",

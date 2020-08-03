@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a62ef5b.chunk.css",
-    "main.js": "/static/js/main.ab022905.chunk.js",
-    "main.js.map": "/static/js/main.ab022905.chunk.js.map",
+    "main.css": "/static/css/main.a3aa3256.chunk.css",
+    "main.js": "/static/js/main.8a094a21.chunk.js",
+    "main.js.map": "/static/js/main.8a094a21.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d8445b1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.d8445b1d.js.map",
     "static/js/2.59229a8d.chunk.js": "/static/js/2.59229a8d.chunk.js",
     "static/js/2.59229a8d.chunk.js.map": "/static/js/2.59229a8d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cda49de70f52e7c6a7e8a9453baa4f83.js": "/precache-manifest.cda49de70f52e7c6a7e8a9453baa4f83.js",
+    "precache-manifest.3620039a73c8c50cb0a1394e86bdbeed.js": "/precache-manifest.3620039a73c8c50cb0a1394e86bdbeed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3a62ef5b.chunk.css.map": "/static/css/main.3a62ef5b.chunk.css.map",
+    "static/css/main.a3aa3256.chunk.css.map": "/static/css/main.a3aa3256.chunk.css.map",
     "static/js/2.59229a8d.chunk.js.LICENSE.txt": "/static/js/2.59229a8d.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/static/media/background6.bc41159a.jpg",
-    "static/media/portfoliopic.png": "/static/media/portfoliopic.4c4e884e.png",
+    "static/media/style.css": "/static/media/background3.332836cd.webp",
+    "static/media/portfoliopic.webp": "/static/media/portfoliopic.493114eb.webp",
     "static/media/recipe_rat.png": "/static/media/recipe_rat.a5919258.png",
     "static/media/recipe_rat.webp": "/static/media/recipe_rat.e02df9f4.webp",
     "static/media/stocksheet.jpg": "/static/media/stocksheet.27cd349b.jpg",
     "static/media/stocksheet.webp": "/static/media/stocksheet.cf60a8f3.webp",
+    "static/media/wf.webp": "/static/media/wf.24ecbc23.webp",
     "static/media/wf.png": "/static/media/wf.3100871d.png",
-    "static/media/wf.webp": "/static/media/wf.7e2425bf.webp",
     "static/media/whisket.jpg": "/static/media/whisket.421fbed9.jpg",
     "static/media/whisket.webp": "/static/media/whisket.f024df7c.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.d8445b1d.js",
     "static/js/2.59229a8d.chunk.js",
-    "static/css/main.3a62ef5b.chunk.css",
-    "static/js/main.ab022905.chunk.js"
+    "static/css/main.a3aa3256.chunk.css",
+    "static/js/main.8a094a21.chunk.js"
   ]
 }
