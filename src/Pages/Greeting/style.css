@@ -15,7 +15,7 @@ strong {
 }
 
 #greeting {
-  background-image: url("../../img/background3.jpg");
+  background-image: url("../../img/background3.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
@@ -41,7 +41,7 @@ strong {
 
 /* Background image changes according to screen size */
 
-@media only screen and (max-width: 2559px) {
+/* @media only screen and (max-width: 2559px) {
   #greeting {
     background-image: url("../../img/background2.jpg");
   }
@@ -50,9 +50,9 @@ strong {
   #greeting {
     background-image: url("../../img/background3.jpg");
   }
-}
+} */
 
-@media only screen and (max-width: 1023px) {
+/* @media only screen and (max-width: 1023px) {
   #greeting {
     background-image: url("../../img/background4.jpg");
   }
@@ -71,4 +71,4 @@ strong {
   #greeting {
     background-image: url("../../img/background6.jpg");
   }
-}
+} */
